@@ -49,7 +49,7 @@ class Data:
         for i, movies_items in enumerate(movie_name):
             if country_list[i] == 'India' and movies_items.startswith(char_of_india_movie):
                 india_movie_list.append(movies_items)
-            elif country_list[i] == 'United States' and movies_items.startswith(char_of_india_movie):
+            elif country_list[i] == 'United States' and movies_items.startswith(char_of_us):
                 us_movie_list.append(movies_items)
 
         print(f'Movies name released with character {char_of_india_movie} in India: {india_movie_list}')
